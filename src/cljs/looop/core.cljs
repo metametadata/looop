@@ -30,4 +30,5 @@
 (println "update :that")
 (swap! app-state update :that inc)
 
+(defn mount-root [])
 (defn init! [])
